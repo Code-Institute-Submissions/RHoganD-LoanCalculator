@@ -1,7 +1,8 @@
 # My Loan Calculator
 ![Responsive screenshot](/asset/images/readme-images/responsiveloan.png)
 # The purpose with this project
-The purpose of this project is to create a simple way to calculate a loan. This aplication gives the user an overall view of the lenght that will take to loan along with the monthy repayment. 
+The purpose of this project is to create a simple way to calculate a loan. 
+This aplication will allow the user  to calculate the lengh that will take the loan to be repaid and the monthly repayment. 
 The idea of this project was taken from tutorials found in YouTube. 
 
 The live site can be found here -[Loan Calculator](https://rhogand.github.io/LoanCalculator/)
@@ -38,7 +39,7 @@ The results will show the monthy repayment, total payment and total interest.
 # Testing
 
 * Code Validation
-   * Code Validation *My Budget has been tested with Samsung galaxy S22 ultra mobile phone. Also, with a Samsung table. The HTML 
+   * Code Validation *Loan Calculator has been tested with Samsung galaxy S22 ultra mobile phone. Also, with a Samsung table. The HTML 
     code has been validated via the W3C HTML Validator, and W3C CSS Validator. And the JAVASCRIPT code has been validate via 
 
 * CSS Validation Image
@@ -71,8 +72,8 @@ The results will show the monthy repayment, total payment and total interest.
 
 # Frameworks, Libraries & Programs Used
 * Visual Studio platform - Work and testing environment used before to start a workspace in GitPod 
-* Cdnj - for the icons use on this project
-* Google Fonts - for the font families: Gentium Book, Poppins, &  San-serif was used as a default font.
+* Font awesome - for the icons use on this project
+* Google Fonts - font families:  Poppins and San-serif was used as a default font.
 * GitPod - Use to upload the final product before pushing it to the Github.
 * GitHub - to store my repository for submission.
  
