@@ -1,18 +1,12 @@
 // Event listener
-document.getElementById('loan-form').addEventListener('submit', function(e){
-    // Hide results
-document.getElementById('results').style.display = 'none';
-    
-    // Show loader
-document.getElementById('loading').style.display = 'block';
-  
+document.getElementById('loan-form').addEventListener('submit', function (e) {
+     document.getElementById('results').style.display = 'none';
+     document.getElementById('loading').style.display = 'block';
     setTimeout(calculateResults, 2000);
-  
     e.preventDefault();
-  });
-  
+});
   // Calculate Results
-  function calculateResults(){
+function calculateResults() {
     // console.log('Calculating...');
 
     // UI Vars
@@ -45,10 +39,10 @@ document.getElementById('loading').style.display = 'block';
     } else {
       showError('Please check your numbers');
     }
-  }
+}
   
   // Show Error
-  function showError(error){
+  function showError(error) {
     // Hide results
     document.getElementById('results').style.display = 'none';
     
@@ -73,10 +67,9 @@ document.getElementById('loading').style.display = 'block';
   
     // Clear error after 3 seconds
     setTimeout(clearError, 3000);
-  }
+    }
   
   // Clear error
-  function clearError(){
+  function clearError() {
     document.querySelector('.alert').remove();
-  }
-  
+}
