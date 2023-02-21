@@ -13,4 +13,83 @@ background-color: #222;
 
 }
 
+.wrapper{
+  width: 90%;
+  font-size: 16px;
+  max-width: 43.75em;
+  margin: 1em auto;
+}
+
+.container{
+   width: 100%;
+   display: grid;
+   padding: 30px 40px;
+   border-radius: 1rem;
+   border: 3px solid white;
+   margin: 25px;
+   background-color: rgba(16, 97, 134, 0.685);
+}
+#loading, #results{
+  display:none;
+ }
+
+h1 {
+  letter-spacing: 2px;
+  margin: 0;
+  margin: 10px 0 10px;
+  text-transform: uppercase;
+  color: azure;
+}
+
+h5{
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 5px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: azure;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+}
+.container input{
+  display: block;
+  width: 100%;
+  padding: 0.6em 0.3em;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.3em;
+  outline: none;
+  font-weight: 400;
+  margin-bottom: 0.6em;
+  }
+
+.input-group span{
+  color: azure;
+  
+}
+
+input#monthly-payment.form-control{
+  font-size: 15px;
+  color: azure; 
+}
+
+input#total-payment.form-control{
+  font-size: 15px;
+  color: azure; 
+}
+
+input#total-interest.form-control{
+  font-size: 15px;
+  color: azure; 
+}
+
+/* Media Query */
+
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 25px;
+  }
+}
+
+ 
+
 
