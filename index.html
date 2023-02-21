@@ -8,15 +8,57 @@
 </head>
 <body>
     
-<div class="wrapper">
-    <div class="container">
-
-      <div class="card">
-
-      </div>  
-
-    </div>    
-</div>        
-
-</body>
-</html>
+    <div class="wrapper">
+        <div class="container">
+  
+          <div class="card">
+              <h1 class="heading">Loan Calculator</h1>
+              <form id="loan-form">
+                <div class="input-group">
+                  <span>Loan Amount <i class="fa-solid fa-landmark"></i></span>
+              <input type="number" class="form-control" id="amount" placeholder="Loan Amount">
+                 </div>
+                 
+                  <div class="input-group">
+                    <span>Interest <i class="fa-solid fa-percent"></i></span>
+                    <input type="number" class="form-control" id="interest" placeholder="Interest">
+                  </div> 
+                  <div class="input-group"> 
+                    <span>Years to Repay <i class="fa-solid fa-calendar-days"></i></span>
+                    <input type="number" class="form-control" id="years" placeholder="Years To Repay">
+                  </div>
+                    <input type="submit" value="Calculate" class="btn">
+                </form>
+  
+  <!-- LOADER -->
+  <div id="loading">
+    <img src="/asset/images/loading.gif" alt="loading">
+  </div>
+  
+  <!-- RESULTS -->
+  <div id="results">
+    <h5>Results</h5>
+      <div class="input-group">
+        <span>Monthly Payment</span>
+        <input type="number" class="form-control" id="monthly-payment" disabled>
+      </div>
+    
+      <div class="input-group">
+        <span>Total Payment</span>
+        <input type="number" class="form-control" id="total-payment" disabled>
+      </div>
+       <div class="input-group">
+        <span>Total Interest</span>
+        <input type="number" class="form-control" id="total-interest" disabled>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+  
+      </div>
+         </div>
+      <script src="/asset/js/test.js"></script>
+   
+  </body>
+  </html>
