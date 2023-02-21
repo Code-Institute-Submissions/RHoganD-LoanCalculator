@@ -63,7 +63,13 @@ The results will show the monthy repayment, total payment and total interest.
  * PageSpeed Insights https://pagespeed.web.dev/
     ![speed](/asset/images/readme-images/speeddesktop.png)
     
-
+ ## Bugs
+  The javascript code was validate using https://codebeautify.org/jsvalidate
+  8 erros present, which I havent been able to fixed. However, this not affect the ejectution of the code.
+  It is performing as normal. 
+ * JS validation
+  ![JS validation](/asset/images/readme-images/JSvalidation.png)
+ 
 # Technologies Used
 # Main Languages Used
 * JavaScript
@@ -86,12 +92,12 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 *  After that, you will see the link of your deployed project that indicates successful deployment.
 The live link can be found [here](https://rhogand.github.io/LoanCalculator/)
 # Credits
-## Content
+ ## Content
  * Atop Web Technologies - Youtube tutorial "Build a Loan Calculator Using Javascript   
    https://www.youtube.com/watch?v=5endsOnJ6R4&ab_channel=AtopWebTechnologies
- * Some of the JavaScript code was taken from a YouTube video tutorial.
+ * The JavaScript code was taken from a YouTube videos tutorial. 
  * The font used came from Google Fonts
- * 
+ 
  ## Media
  
 
