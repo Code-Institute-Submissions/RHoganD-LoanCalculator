@@ -68,7 +68,7 @@ The results will show the monthy repayment, total payment and total interest.
   8 erros present, which I havent been able to fixed. However, this not affect the ejectution of the code.
   It is performing as normal. 
  * JS validation
-  ![JSvalidation](/asset/images/readme-images/JSvalidation.png)
+  ![JSvalidation](/asset/images/readme-images/JSvalidation.PNG)
  
 # Technologies Used
 # Main Languages Used
