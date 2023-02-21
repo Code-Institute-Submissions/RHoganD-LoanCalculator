@@ -1,108 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# My Loan Calculator
+![Responsive screenshot](/asset/images/Readme-Images/Responsive-image.png)
+# The purpose with this project
+The purpose of this project is to create a simple way to calculate a loan. This aplication gives the user an overall view of the lenght that will take to loan along with the monthy repayment. 
+The idea of this project was taken from tutorials found in YouTube. 
 
-Welcome RHoganD,
+The live site can be found here -[Loan Calculator](https://rhogand.github.io/loancalculator)
+# Table of Content
+* Design
+* Features
+    * Existing Features
+        * Loan calculator
+        * Results
+           
+* Testing
+* Technologies Used
+* Languages Used
+* Frameworks, Libraries & Programs Used
+* Deployment
+* Credits
+* Acknowledgments
+# Design 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is a simple design with the only purpose to show who to calculate a loan, lengh and repayment amount.
+The colour scheme chosen is white and a variation of the blue colour.
+# Features
+## Existing Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Loan Calculator
+The calcualor will allow the user to input the the loan mount, lengh and interest rate.  
+![loan](/asset/images/readme-images/loan%20.png)
+## Results
+The results will show the monthy repayment, total payment and total interest.
+![results](/asset/images/readme-images/loan%20cal-res.png)
 
-## Gitpod Reminders
+# Testing
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Code Validation
+   * Code Validation *My Budget has been tested with Samsung galaxy S22 ultra mobile phone. Also, with a Samsung table. The HTML 
+    code has been validated via the W3C HTML Validator, and W3C CSS Validator. And the JAVASCRIPT code has been validate via 
 
-`python3 -m http.server`
+* CSS Validation Image
+![CSS valid](/asset/images/Readme-Images/   )
+* HTML Validation Image
+![HTML valid](/asset/images/Readme-Images/  )
 
-A blue button should appear to click: _Make Public_,
+* Lighthouse Testing
+    * Performance - How the page performs whilst  loading.
+    * Accessibility - Is the site accessible for all users, and how can it be improved.
+    * Best Practices - The site conforms to industry best practices.
+    * SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.
 
-Another blue button should appear to click: _Open Browser_.
+ ![lighthouse](/asset/images/Readme-Images/    )   
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ * Webpage Testing https://www.webpagetest.org/
+      ![webtest](/asset/images/Readme-Images/      )
+      ![webtest](/asset/images/Readme-Images/    )
 
-A blue button should appear to click: _Make Public_,
+ * PageSpeed Insights https://pagespeed.web.dev/
+    ![speed](/asset/images/Readme-Images/       )
+    
+ * Bugs Fixed
+     * HTML Validation
+ After putting the website through HTML Validation, I was presented with the following errors below:
 
-Another blue button should appear to click: _Open Browser_.
+ ![html error](/asset/images/Readme-Images/        )
+   * It said that the frameborder attribute on the iframe element ID is obsolete so after removing the frameborder attribute in the HTML code, it returned with no errors.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Fixed Bugs
 
-To log into the Heroku toolbelt CLI:
+  The hamburger menu was not working as expected. However this has been fixed and the Javascript code is working as intended.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  # Technologies Used
+# Main Languages Used
+* JavaScript
+* HTML5
+* CSS3
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Frameworks, Libraries & Programs Used
+* Visual Studio platform - Work and testing environment used before to start a workspace in GitPod 
+* Cdnj - for the icons use on this project
+* Google Fonts - for the font families: Gentium Book, Poppins, &  San-serif was used as a default font.
+* GitPod - Use to upload the final product before pushing it to the Github.
+* GitHub - to store my repository for submission.
+ 
+# Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-------
+*  In the GitHub repository, navigate to the Settings tab. On the left-hand side under GitHub Copilot, select Pages.
+*  From the source section drop-down menu, select the Master Branch. Once the master branch has been selected, the page will     
+   display a notification about the data being saved. 
+*  After that, you will see the link of your deployed project that indicates successful deployment.
+The live link can be found [here](https://rhogand.github.io/loancalculator/)
+# Credits
+## Content
+ * Atop Web Technologies - Youtube tutorial "Build a Loan Calculator Using Javascript" https://www.youtube.com/watch?   
+   v=5endsOnJ6R4&ab_channel=AtopWebTechnologies
+ * Some of the JavaScript code was taken from a YouTube video tutorial.
+ * The font used came from Google Fonts
+ * 
+ ## Media
+ * No images used.
 
-## Release History
+ # Acknowledgments
+The site was completed as part of a Full Stack Software Developer Diploma at the Code Institute, Project 2. 
+I would like to thank my mentor Mitko, who has been a great help in this project. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
