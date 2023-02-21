@@ -1,5 +1,5 @@
 # My Loan Calculator
-![Responsive screenshot](/asset/images/Readme-Images/Responsive-image.png)
+![Responsive screenshot](/asset/images/readme-images/responsiveloan.png)
 # The purpose with this project
 The purpose of this project is to create a simple way to calculate a loan. This aplication gives the user an overall view of the lenght that will take to loan along with the monthy repayment. 
 The idea of this project was taken from tutorials found in YouTube. 
@@ -54,11 +54,13 @@ The results will show the monthy repayment, total payment and total interest.
 
  ![lighthouse](/asset/images/readme-images/lighthouse.png)   
 
+ ![lighthouse](/asset/images/readme-images/lighthouse2.png)   
+
  * Webpage Testing https://www.webpagetest.org/
       ![webtest](/asset/images/readme-images/perfomance.png)
      
  * PageSpeed Insights https://pagespeed.web.dev/
-    ![speed](/asset/images/Readme-Images/       )
+    ![speed](/asset/images/readme-images/speeddesktop.png)
     
 
 # Technologies Used
