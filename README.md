@@ -33,6 +33,8 @@ The calcualor will allow the user to input the the loan mount, lengh and interes
 The results will show the monthy repayment, total payment and total interest.
 ![results](/asset/images/readme-images/loan%20cal-res.png)
 
+![calculator](/asset/images/readme-images/loan%20calculator.png)
+
 # Testing
 
 * Code Validation
@@ -86,20 +88,20 @@ The results will show the monthy repayment, total payment and total interest.
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-*  In the GitHub repository, navigate to the Settings tab. On the left-hand side under GitHub Copilot, select Pages.
+*  In the GitHub repository, navigate to the Settings tab. On the left-hand side under GitHub Codespaces, select Pages.
 *  From the source section drop-down menu, select the Master Branch. Once the master branch has been selected, the page will     
    display a notification about the data being saved. 
 *  After that, you will see the link of your deployed project that indicates successful deployment.
 The live link can be found [here](https://rhogand.github.io/loancalculator/)
 # Credits
 ## Content
- * Atop Web Technologies - Youtube tutorial "Build a Loan Calculator Using Javascript" https://www.youtube.com/watch?   
-   v=5endsOnJ6R4&ab_channel=AtopWebTechnologies
+ * Atop Web Technologies - Youtube tutorial "Build a Loan Calculator Using Javascript   
+   https://www.youtube.com/watch?v=5endsOnJ6R4&ab_channel=AtopWebTechnologies
  * Some of the JavaScript code was taken from a YouTube video tutorial.
  * The font used came from Google Fonts
  * 
  ## Media
- * No images used.
+ 
 
  # Acknowledgments
 The site was completed as part of a Full Stack Software Developer Diploma at the Code Institute, Project 2. 
