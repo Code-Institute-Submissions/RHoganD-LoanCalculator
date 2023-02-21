@@ -4,7 +4,7 @@
 The purpose of this project is to create a simple way to calculate a loan. This aplication gives the user an overall view of the lenght that will take to loan along with the monthy repayment. 
 The idea of this project was taken from tutorials found in YouTube. 
 
-The live site can be found here -[Loan Calculator](https://rhogand.github.io/loancalculator)
+The live site can be found here -[Loan Calculator](https://rhogand.github.io/LoanCalculator/)
 # Table of Content
 * Design
 * Features
@@ -42,9 +42,9 @@ The results will show the monthy repayment, total payment and total interest.
     code has been validated via the W3C HTML Validator, and W3C CSS Validator. And the JAVASCRIPT code has been validate via 
 
 * CSS Validation Image
-![CSS valid](/asset/images/Readme-Images/   )
+![CSS valid](/asset/images/readme-images/CSSValidation.png  )
 * HTML Validation Image
-![HTML valid](/asset/images/Readme-Images/  )
+![HTML valid](/asset/images/readme-images/HTMLlvalidation.png)
 
 * Lighthouse Testing
     * Performance - How the page performs whilst  loading.
@@ -55,9 +55,8 @@ The results will show the monthy repayment, total payment and total interest.
  ![lighthouse](/asset/images/readme-images/lighthouse.png)   
 
  * Webpage Testing https://www.webpagetest.org/
-      ![webtest](/asset/images/Readme-Images/      )
-      ![webtest](/asset/images/Readme-Images/    )
-
+      ![webtest](/asset/images/readme-images/perfomance.png)
+     
  * PageSpeed Insights https://pagespeed.web.dev/
     ![speed](/asset/images/Readme-Images/       )
     
