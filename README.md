@@ -52,7 +52,7 @@ The results will show the monthy repayment, total payment and total interest.
     * Best Practices - The site conforms to industry best practices.
     * SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.
 
- ![lighthouse](/asset/images/Readme-Images/    )   
+ ![lighthouse](/asset/images/readme-images/lighthouse.png)   
 
  * Webpage Testing https://www.webpagetest.org/
       ![webtest](/asset/images/Readme-Images/      )
@@ -61,18 +61,8 @@ The results will show the monthy repayment, total payment and total interest.
  * PageSpeed Insights https://pagespeed.web.dev/
     ![speed](/asset/images/Readme-Images/       )
     
- * Bugs Fixed
-     * HTML Validation
- After putting the website through HTML Validation, I was presented with the following errors below:
 
- ![html error](/asset/images/Readme-Images/        )
-   * It said that the frameborder attribute on the iframe element ID is obsolete so after removing the frameborder attribute in the HTML code, it returned with no errors.
-
-* Fixed Bugs
-
-  The hamburger menu was not working as expected. However this has been fixed and the Javascript code is working as intended.
-
-  # Technologies Used
+# Technologies Used
 # Main Languages Used
 * JavaScript
 * HTML5
@@ -92,7 +82,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 *  From the source section drop-down menu, select the Master Branch. Once the master branch has been selected, the page will     
    display a notification about the data being saved. 
 *  After that, you will see the link of your deployed project that indicates successful deployment.
-The live link can be found [here](https://rhogand.github.io/loancalculator/)
+The live link can be found [here](https://rhogand.github.io/LoanCalculator/)
 # Credits
 ## Content
  * Atop Web Technologies - Youtube tutorial "Build a Loan Calculator Using Javascript   
